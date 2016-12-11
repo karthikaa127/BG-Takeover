@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #094f94;
+	margin: 0;
+	padding: 0;
+}
+#bg-takeover-left, #bg-takeover-right {
+	position: fixed;
+}
+.left {
+	float: left;
+	width: 50%;
+}
+.right {
+	float: right;
+	width: 50%;
+	right: 0;
+}
+#bg-takeover-left a img, #bg-takeover-right a img {
+	width: 2000px;
+	min-height: 980px;
+}
+#hsb_container {
+	background: #fff;
+	margin: 0 auto;
+	width: 940px;
+	min-height: 980px;
+	position: relative;
+}
+#hsb_container  * {
+	padding: 10px;
+}
+#hsb_header{
+	color: #094f94;
+	text-align: center;
+	margin: 0 50px;
+}
